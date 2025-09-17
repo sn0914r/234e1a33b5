@@ -1,0 +1,56 @@
+#our-cars {
+  background: linear-gradient(
+    180deg,
+    rgba(27, 27, 27, 0.95),
+    rgba(14, 14, 14, 0.95)
+  );
+  padding: 32px;
+  color: white;
+
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      width: 85px;
+      height: 3px;
+      background: gold;
+      margin: 10px auto 0;
+    }
+  }
+  .car-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: gold;
+  }
+
+  .car-model {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+
+  ul {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .btn-outline-warning {
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.3s;
+    &:hover {
+      background-color: gold;
+      color: #111;
+    }
+  }
+
+  .carousel-control-next {
+    right: -5vh;
+  }
+  .carousel-control-prev {
+    left: -5vh;
+  }
+}
